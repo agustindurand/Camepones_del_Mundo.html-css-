@@ -1,0 +1,286 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif; 
+    text-decoration: none;
+}
+
+body { 
+background-image: linear-gradient(rgba(36, 65, 228, 0.7), rgba(37, 40, 197, 0.7)) 
+}
+
+/*Index */
+
+.menudenavegacionIndex {
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menudenavegacionIndex .logo img {
+    width:250px;
+    height:auto;
+}
+
+.menudenavegacionIndex .menu ul  {
+    display: flex;
+    list-style: none;
+    color: blue;
+   
+    } 
+a:hover {
+    color: rgb(0, 255, 255); 
+}
+
+.menudenavegacionIndex .menu ul li {
+    margin: 0px 90px;
+    background-color: rgb(42, 77, 235);
+    border: solid rgb(5, 5, 85) 5px;
+}
+
+.menudenavegacionIndex .menu ul li a {
+   
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: blueviolet;
+
+  
+}
+.tituloIndex #titulo { 
+    color:aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 450px;
+    height: auto;
+    background-color: rgb(42, 77, 235);
+    padding-right: 100px;
+    border: 5px solid black;
+    padding: 20px 20px;
+    margin: 50px auto;
+}
+.tituloIndex #subtitulo{
+    text-align: center;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: auto;
+    background-color: rgb(11, 34, 134);
+    border: 5px double black;
+    padding: 30px 30px;
+    margin: 50px auto;
+}
+.mainPrincipal .main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.parte-media{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+}
+
+
+.main .parte-media .parrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+    border: 5px solid black;
+    text-align: start;
+    padding: 20px 20px;
+    margin: 10px auto;
+    width: 800px;
+    height: 200px;
+}
+
+.mainPrincipal .main .imagenmessi {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center; 
+    margin:30px 30px; }
+
+main .divCamisetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/chocolates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .divNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/chocolates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.sectionvideo {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+}
+  
+.table {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    margin: 10px 10px;  
+}
+
+.table table {
+    background-color: white;
+    border: 5px solid; 
+    border-color: black;
+}
+
+/* FOOTER (TODAS LAS PAGS) */ 
+
+
+.footer {
+    background-color: rgb(3, 3, 85);
+    height: 450px;
+}
+
+footer .divFooterDir {
+    text-align: center;
+}
+
+footer .h2Footer {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+footer .dirFooter {
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+footer .dirFooter {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+footer .logofooter { 
+    margin:  50px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+footer .iconosdefooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  50px 20px 0px 20px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+footer .divCopy {
+    width: 100%;
+    max-width: 100%;
+}
+
+footer .divCopy hr {
+    margin-top: 20px;
+}
+
+footer .copyrightFooter {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer .copyrightLink {
+    color: white;
+    font-size: 17px;
+}
+
+    
+/* CSS DE SECCIONES DE LA PAGINA */
+/*PAGINA CAMISETAS (CON BOOTSTRAP) */
+
+.navbar {
+    padding: 2rem;
+    background-color: black;
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item .nav-link  {
+    color: white;
+}
+
+.nav-item  {
+    color: white;
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+}
+
+
+body {background-color:#305573;}
+
+.footerdos {
+   background-color: black;
+   border: 80px solid black;
+}
+#botondehome { 
+    background-color: blue;
+    color: black;
+}
+
+.textocopa img {
+    width:250px;
+    height:160px
+}
+
+.camiseta img {
+    width:250px;
+    height:160px 
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:300px) {
+    .menudenavegacionIndex .menu ul li {
+        flex-direction: column;
+    }
+}
+
