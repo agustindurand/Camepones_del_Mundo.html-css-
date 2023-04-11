@@ -1,13 +1,14 @@
 
+/*RESET */
+
 *{
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif; 
     text-decoration: none;
-    margin: 0;
-    bottom: 0;
 }
 
-/*Index */
+/*NAVBAR (Todas las paginas, incluido INDEX)*/
+
 
 .navbar {
     padding: 2rem;
@@ -35,7 +36,7 @@
         display: none;
     }}
 
-
+/*Seccion Index */
 .mainPrincipal {
     background-color: rgb(61, 61, 240);
     margin-top: -50px;
@@ -130,7 +131,6 @@ main .divNosotros {
 }
 
 
-
 .sectionvideo {
     background-color: rgb(42, 77, 235);
     display: flex;
@@ -142,8 +142,8 @@ main .divNosotros {
     background-color: rgb(42, 77, 235);
     display: flex;
     justify-content: center;
-    margin: 1px 1px;
-    padding: 10px 10px;
+    padding: 30px 30px;
+    margin: 10px 10px;  
 }
 
 .table table {
@@ -153,7 +153,6 @@ main .divNosotros {
 }
 
 /* FOOTER (TODAS LAS PAGS) */ 
-
 
 .footer {
     background-color: rgb(3, 3, 85);
@@ -228,11 +227,18 @@ footer .copyrightLink {
 
 /* CARROUSEL DE IMAGENES DE SECCION CAMISETAS */
 .carousel-inner {
-    background-color: rgb(72, 72, 235);
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px 50px;
+    width: 70%;
+    height: 350px;
+}
+
+.carousel-inner img {
+    width: 350px;
+    height: 250px;
 }
 
  .text-center .parrafoseccioncamisetas {
@@ -247,23 +253,30 @@ footer .copyrightLink {
     margin: 50px auto;
 }
 
-.footerdos {
-   background-color: black;
-   border: 80px solid black;
-}
-#botondehome { 
-    background-color: blue;
-    color: black;
+
+.grid-row {
+    width: 100%;
+    padding: 0px 5px;
+    border: 0;
+    display: block;
+    background-color:rgb(206, 187, 163)
+
 }
 
-.textocopa img {
-    width:250px;
-    height:160px
-}
+.grid-row .camiseta {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 100px;
 
-.camiseta img {
-    width:250px;
-    height:160px 
+}
+.grid-row .camiseta img {
+    width:100px;
+    height:100px 
 }
 
 
@@ -287,13 +300,20 @@ footer .copyrightLink {
     width: 350px;
     border: 5px solid black;
     background: linear-gradient(45deg, blue 30%, purple 70%); 
+    color: wheat;
 }
 
 .imagendeseccioncontacto img {
-    height: 300px;
+    height: 200px;
     width: 459px;
     transition:all .10s;
-}
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center; 
+    margin:250px 250px;
+    border: solid black 10px; }
+
 
 .imagendeseccioncontacto img:hover{
     width: 800px;
