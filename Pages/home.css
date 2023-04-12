@@ -227,7 +227,7 @@ footer .copyrightLink {
 
 /* CARROUSEL DE IMAGENES DE SECCION CAMISETAS */
 .carousel-inner {
-    background-color: white;
+    background-color: rgb(87, 0, 226);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -254,7 +254,7 @@ footer .copyrightLink {
 }
 
 
-.grid-row {
+.grid-columns{
     width: 100%;
     padding: 0px 5px;
     border: 0;
@@ -263,10 +263,9 @@ footer .copyrightLink {
 
 }
 
-.grid-row .camiseta {
+.grid-columns .camiseta {
     color: rgb(0, 0, 0);
     text-align: center;
-    text-transform: uppercase;
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -274,7 +273,7 @@ footer .copyrightLink {
     margin-bottom: 100px;
 
 }
-.grid-row .camiseta img {
+.grid-columns .camiseta img {
     width:100px;
     height:100px 
 }
