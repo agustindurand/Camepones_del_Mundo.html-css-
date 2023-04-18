@@ -98,6 +98,24 @@
     background-color: rgb(2, 10, 46);
 }
 
+.main .parte-media .parrafo-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+    border: 5px solid black;
+    text-align: start;
+    padding: 50px 50px;
+    margin: 30px 30px;
+    width: 800px;
+    height: 1500px;
+    color: antiquewhite;
+    background-color: rgb(2, 10, 46);
+    padding-top: 90px;
+    font-size: 20px;
+}
+
+
 .mainPrincipal .main .parte-media .frase{
     color: rebeccapurple;
 }
@@ -278,6 +296,14 @@ footer .copyrightLink {
     height:100px 
 }
 
+.boton {
+        border: 1px solid #2e518b; 
+        padding: 10px; 
+        background-color: #2e518b; 
+        color: black;
+        border-radius: 50px; 
+        }
+
 
 /* FORMULARIO */
 
@@ -288,7 +314,8 @@ footer .copyrightLink {
 
 .h1seccioncontacto {
     margin: 0 auto;
-    background-color: rgb(3, 121, 255);
+    background-color: rgb(0, 3, 155);
+    color: aliceblue;
     width: 400px;
     transform: translate(20px, -40px); /* X Y*/
     transform: scale(0.80, 0.80);
@@ -296,9 +323,9 @@ footer .copyrightLink {
 
 .formulario {
     margin: 0 auto;
-    width: 350px;
+    width: 950px;
     border: 5px solid black;
-    background: linear-gradient(45deg, blue 30%, purple 70%); 
+    background: linear-gradient(45deg, rgb(152, 42, 255) 30%, rgb(45, 3, 94) 70%); 
     color: wheat;
 }
 
@@ -328,6 +355,94 @@ footer .copyrightLink {
     background: powderblue;
 }
 
+/* PAGINA FINAL */
+
+.mainPrincipal {
+    background-color: rgb(61, 61, 240);
+    margin-top: -50px;
+}
+
+.tituloFinal #titulo { 
+    color:aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    background-color: rgb(42, 77, 235);
+    padding-top: 24px;
+    border: 5px black double;
+    padding: 20px 20px; 
+    margin-top: 20px;
+    margin: 50px auto;
+}
+
+#audio {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 50px auto;
+
+}
+
+.seccion-final .container-fluid #estadio { 
+    text-align: center;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    background-color: rgb(11, 34, 134);
+    border: 5px double black;
+    padding: 30px 30px;
+    margin: 50px auto;
+ }
+
+#inframe {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    margin: 50px auto;
+}
+
+#imagenEstadio{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    margin: 50px auto;
+}
+
+
+
+.seccioncopa #imagenCopa {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    margin: 50px auto;
+}
+
+.seccioncopa #parrafocopa {
+    color:aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    background-color: rgb(42, 77, 235);
+    padding-top: 24px;
+    border: 5px black double;
+    padding: 20px 20px; 
+    margin-top: 20px;
+    margin: 50px auto;
+}
+
+#fechadeprimeracopa {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    margin: 50px auto;
+}
+
 /* Seccion Pagina FINAL
  Utilizacion de propiedad de Animaciones @keyframes*/
     @keyframes efecto {
@@ -354,6 +469,10 @@ footer .copyrightLink {
         animation-iteration-count: 3;
         animation-duration: 3s;
         animation-delay: 1s;
+        display: flex;
+        justify-content: center;
+        padding: 10px 10px;
+         margin: 50px auto;
     }
 
 /* MEDIA QUERIES */
@@ -366,6 +485,7 @@ footer .copyrightLink {
    }
 }
 
+
 @media screen and (max-width: 780px) {
     .main .parte-media .parrafo {
         width: 70%;
@@ -373,8 +493,25 @@ footer .copyrightLink {
    }
 }
 
+
+@media screen and (max-width: 780px) {
+    .main .parte-media .parrafo-final {
+        width: 100%;
+        height: 100%;
+   }
+}
+@media screen and (max-width: 780px) {
+    .seccion-final .container-fluid #inframe {
+        width: 140%;
+        height: 140%;
+   }
+}
+
+
+
+
 body {
-    background-color: rgb(97 97 255);
+    background-color: rgb(49, 49, 252);
 }
 
 
