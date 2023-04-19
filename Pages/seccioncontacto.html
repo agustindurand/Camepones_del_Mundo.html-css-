@@ -38,12 +38,16 @@
             <h1 class="h1seccioncontacto"> Completa el formulario para que nos pongamos en contacto con vos!</h1>
     
         <section>
-            <form class="formulario"> <b> 
+            <form class="formulario"> 
                 <h2> Formulario </h2>
+                 <div class="form"> 
                 <p> Nombre</p><input type="text" placeholder="Ingrese Nombre" class="input"> <br>
                 <p> Apellido</p><input type="text" placeholder="Ingrese Apellido" class="input"> <br>
+                 </div>
+                 <div class="form">
                 <p> Fecha de Nacimiento</p><input type="date" placeholder="Ingrese nombre"> <br>
                 <p> Correo electronico</p><input type="email" name="correo" id="correo" placeholder="Ingrese correo electronico" class="input"> <br>
+                  </div>
                 <p> Numero de Telefono</p><input type="text" placeholder="Ingrese Numero de Telefono" class="input"> <br>
                 <p> Direccion de Envio</p><input type="text" placeholder="Direccion de Envio" class="input"> <br>
                 <p> Zona de Envio <br>
@@ -51,15 +55,22 @@
                     <label><input type="radio" name="desc" value="gbasur"> GBA SUR</label><br>
                     <label><input type="radio" name="desc" value="gbaoeste"> GBA OESTE</label><br>
                     <label><input type="radio" name="desc" value="gbanorte"> GBA NORTE</label><br>
-                </p>
+                </div>
+                  </p>
+                  </div>
+                
+                <div class="form">
                 <p> Cupon de descuento?<br>
                     <label><input type="radio" name="desc" value="si" class="input"> Si</label><br>
                     <label><input type="radio" name="desc" value="no" class="input"> No</label><br>
                 </p>
+                <p> Ingrese Codigo de Cupon de Descuento</p><input type="text" placeholder="Codigo de cupon" class="input"> <br>
                 <p> Nesecitas Envio?<br>
                     <label><input type="radio" name="desc" value="si" class="input"> Si</label><br>
                     <label><input type="radio" name="desc" value="no" class="input"> No</label><br>
                 </p>
+                
+                 </div>
                 <p> Camiseta requerida <br>
                     <select name="select">
                         <option value="value1" class="input"> Camiseta Messi</option>
@@ -68,7 +79,7 @@
                       </select>
                 <p> <input type="submit">  </p>
                 </p>
-            </b>
+                
             </form>
         </section>
         <footer class="justify-content-center text-center footer">
