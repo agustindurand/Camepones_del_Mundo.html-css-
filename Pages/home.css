@@ -245,23 +245,24 @@ footer .copyrightLink {
 
 /* CARROUSEL DE IMAGENES DE SECCION CAMISETAS */
 .carousel-inner {
-    background-color: rgb(87, 0, 226);
+    background-color: rgb(67, 78, 241);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 50px 50px;
-    width: 70%;
-    height: 350px;
+    margin: 55px 55px;
+    width: 96%;
 }
 
 .carousel-inner img {
-    width: 350px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin:  40px -100px;
 }
 
  .text-center .parrafoseccioncamisetas {
     text-align: center;
-    color:rgb(224, 39, 147);
+    color:rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     height: auto;
@@ -389,7 +390,7 @@ footer .copyrightLink {
     margin: 50px auto;
  }
 
-#inframe {
+ .container-fluid .inframe {
     display: flex;
     justify-content: center;
     padding: 30px 30px;
@@ -586,12 +587,16 @@ footer .copyrightLink {
         height: 100%;
    }
 }
+
+
 @media screen and (max-width: 780px) {
-    .seccion-final .container-fluid #inframe {
-        width: 140%;
-        height: 140%;
-   }
+    .container-fluid .inframe {
+        width: 85%;   
+        height: 30%;  
+       
+   }  
 }
+
 
 
 @media screen and (max-width: 780px) {
@@ -641,6 +646,14 @@ footer .copyrightLink {
         font-size: 89%;
         border: transparent;
         flex-direction: column;
+   }  
+}
+
+@media screen and (max-width: 780px) {
+    .carousel-inner {
+        width: 75%;
+        height: 50%; 
+       
    }  
 }
 
